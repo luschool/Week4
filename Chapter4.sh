@@ -1,6 +1,7 @@
 #!/bin/bash
 #Week 4 Lab - Lucas Merriott
 echo First we will create an empty file 
+cd ~
 
 dd if=/dev/zero of=./24MB.img bs=1M count=24
 
